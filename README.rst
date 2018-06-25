@@ -1,34 +1,3 @@
-
-.. image:: doc/img/logo-simple-my-testflow.png
-
-my-testflow
-===========
-
-**Test automation standard engineering project template**. More and more features to be added in future.
-
-How to use?
------------
-
-**1.** Clone this repo and run the following command. (Installing with ``-e`` flag is strongly recommended.)
-
-.. code-block:: bash
-    
-    git clone https://github.com/AirtestProject/my-testflow.git
-    pip install -e my-testflow
-
-**2.** Run the example script after installation.
-
-.. code-block:: bash
-
-    python testflow/scripts/example.py
-
-**3.** Check the test results in ``pocounit-results/`` with `TestResultPlayer`_.
-
-Project structure
------------------
-
-.. code-block:: text
-
     ─ my-testflow/
         ├─ testflow/                <-------  rename this folder if you with (identifier only)
         |   ├─ __init__.py
