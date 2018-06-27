@@ -6,6 +6,7 @@ pip install -e my-testflow
 
 
 标准化自动化工程---- 简单介绍下，各个目录的作用
+
 ─ my_testflow/
     ├─ cmtest/            <-------   此文件是一个标识符，标记我们测试项目
     |   ├─ __init__.py
@@ -25,4 +26,6 @@ pip install -e my-testflow
     ├─ setup.py
     ├─ requirements.txt
     └─ .gitignore
+    
+    
    
