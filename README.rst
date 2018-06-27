@@ -12,16 +12,14 @@ pip install -e my-testflow
     ─ my_testflow/
         ├─ cmtest/            <-------   此文件是一个标识符，标记我们测试项目
         |   ├─ __init__.py
-        |   ├─ lib/           <-------   此文件是一个公共目录，存放一些库代码，也可以自己添加一些代码
+        |   ├─ lib/           <-------   此文件是一个公共目录，存放一些库代码，也可以自己想要的代码
         |   |   ├─ __init__.py
         |   |   ├─ case.py
-        |   |   └─ player.py
+        |   |   └─ until.py
         |   └─ scripts/       <-------   此文件存放一些游戏自动化的脚本
         |       ├─ __init__.py
-        |       ├─ test1.py
-        |       └─ folder/
-        |           ├─ __init__.py
-        |           └─ test2.py
+        |       ├─ example.py
+        |       └─ ..
         ├─ res/               <-------   此文件存放一些资源目录，其实没啥用，可以不用管
         |   └─ ...
         ├─ pocounit-results/  <-------   此文件存放报告的一些结果
